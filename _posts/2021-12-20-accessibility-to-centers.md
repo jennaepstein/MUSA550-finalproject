@@ -7,7 +7,7 @@ excerpt: "Exploring the urban street network and walking accessibility to neares
 #altair-loader:
 #  altair-chart-1: "charts/zones_centers_map.json"
 hv-loader:
-  points_hvplot_access_map: ["charts/points_hvplot_access_map.html", "800", "800"] # second argument is the height
+  points_hvplot_access_map: ["charts/points_hvplot_access_map.html", "800"] # second argument is the height
 toc: true
 toc_sticky: true
 ---
@@ -15,7 +15,7 @@ toc_sticky: true
 ## Defining the Urban Street Network
 
 Show OSMnx road network for process?
-![G_NYC_roadnetwork]({{ site.url }}{{ site.baseurl }}/assets/images/distance_to_abandoned_cars.png)
+![G_NYC_roadnetwork]({{ site.url }}{{ site.baseurl }}/assets/images/G_NYC_roadnetwork.png)
 
 
 ## HvPlot of Walking Accessibility to Nearest Evacuation Center
