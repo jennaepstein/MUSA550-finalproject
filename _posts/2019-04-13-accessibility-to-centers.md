@@ -15,7 +15,7 @@ toc_sticky: true
 ## Defining the Urban Street Network
 
 Show OSMnx road network for process?
-![distances-abandoned-cars]({{ site.url }}{{ site.baseurl }}/assets/images/distance_to_abandoned_cars.png)
+![G_NYC_roadnetwork]({{ site.url }}{{ site.baseurl }}/assets/images/distance_to_abandoned_cars.png)
 
 
 ## HvPlot of Walking Accessibility to Nearest Evacuation Center
