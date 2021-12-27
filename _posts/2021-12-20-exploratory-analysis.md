@@ -17,8 +17,6 @@ read_time: false
 # Population Density
 <div id="NYC_population_density_hvplot"></div>
 
-
-NYC_population_density_hvplot
 # Overall SVI
 
 ![hec_overallSVI_matplotlib]({{ site.url }}{{ site.baseurl }}/assets/images/hec_overallSVI_matplotlib.png)
