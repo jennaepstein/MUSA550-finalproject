@@ -6,12 +6,11 @@ tags:
 - dataviz
 - matplotlib
 - hvplot
-hv-loader:
-  points_hvplot_access_map: ["charts/NYC_population_density_hvplot.html", "800"] # second argument is the height
-excerpt: "This post discusses the exploratory analysis."
 toc: true
 toc_sticky: true
 read_time: false
+hv-loader:
+  points_hvplot_access_map: ["charts/NYC_population_density_hvplot.html", "800"] # second argument is the height
 ---
 
 # Population Density
