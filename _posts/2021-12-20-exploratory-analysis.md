@@ -8,6 +8,8 @@ hv-loader:
   NYC_population_density_hvplot: ["charts/NYC_population_density_hvplot.html", "800", "800"] # second argument is the height
 toc: false
 toc_sticky: false
+classes: wide
+
 ---
 
 # Population Density
