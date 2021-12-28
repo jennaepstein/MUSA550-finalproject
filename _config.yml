@@ -16,7 +16,7 @@ minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale: "en-US"
-title: "Hurricane Preparedness: A Geospatial Analysis of Demographics, Social Vulnerability, and Evacuation Center Access in NYC"
+title: "A Geospatial Analysis of Population, Social Vulnerability, and Hurricane Evacuation Center Access in NYC"
 title_separator: "-"
 name: "Jenna Epstein"
 description: "Final project for MUSA 550: Geospatial Data Science in Python at UPenn (2021)"
