@@ -8,8 +8,9 @@ excerpt: "Exploring the urban street network and walking accessibility to neares
 #  altair-chart-1: "charts/zones_centers_map.json"
 hv-loader:
   points_hvplot_access_map: ["charts/points_hvplot_access_map.html", "800"] # second argument is the height
-toc: true
-toc_sticky: true
+toc: false
+toc_sticky: false
+classes: wide
 ---
 
 ## Defining the Urban Street Network
@@ -23,3 +24,4 @@ Show OSMnx road network for process?
 Text describing the map:
 
 <div id="points_hvplot_access_map"></div>
+lse
