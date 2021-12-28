@@ -12,8 +12,7 @@ hv-loader:
 classes: wide
 ---
 ## Introduction
-For my final project, I was interested in exploring access to hurricane evacuation centers and social vulnerability factors in New York City. This analysis
-considered the following questions:
+For my final project, I was interested in exploring access to hurricane evacuation centers and social vulnerability factors in New York City. This analysis considers the following questions:
 * What is the relationship between census-tract level demographics and proximity to hurricane
 evacuation centers?
 * Are centers in/near areas of high social vulnerability? What does walkability look like for these populations?
