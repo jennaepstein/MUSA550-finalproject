@@ -109,7 +109,7 @@ analytics:
 # Site Author
 author:
   name: "Jenna Epstein"
-  avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar: "/assets/images/JennaEpstein_headshot_2021_github.png"
   bio: "City Planning & Spatial Analysis at University of Pennsylvania"
   location: "Philadelphia"
   email:
@@ -119,7 +119,7 @@ author:
       # url: mailto:your.name@email.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+       url: "https://jennaepstein.github.io"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
