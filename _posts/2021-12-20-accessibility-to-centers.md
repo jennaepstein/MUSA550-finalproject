@@ -13,13 +13,13 @@ toc_sticky: false
 classes: wide
 ---
 ## Process 
-The second part of this project involved creating a network analysis to explore walking access to evacuation centers from each intersection. Main steps included:
-* Creating a pandanas network
+The second part of this project centered around a [Pandana](http://udst.github.io/pandana/) network analysis to explore walking access to evacuation centers from each intersection. Main steps included:
+* Creating a pandanas network 
 * Loading data for the walkable street network using OSMnx and adding locations of the hurricane evacuation centers to the network
 * Plotting the walking distance to the nearest center
 
 ## Defining the Urban Street Network
-The walkable road network for all of NYC is massive - this image is an export of the output from OSMnx showing all walkable paths.
+The walkable road network for all of NYC is massive - this image is an export of the output from [OSMnx](https://osmnx.readthedocs.io/en/stable/) showing all walkable paths.
 
 ![G_NYC_roadnetwork]({{ site.url }}{{ site.baseurl }}/assets/images/G_NYC_roadnetwork_v2.png)
 <img src="G_NYC_roadnetwork_v2.png" height="300">
