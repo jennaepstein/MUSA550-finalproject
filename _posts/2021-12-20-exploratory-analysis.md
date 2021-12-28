@@ -2,15 +2,12 @@
 title: "Exploratory Analysis: Population Density & Social Vulnerability"
 date: 2021-12-20
 published: true
-tags:
-- dataviz
-- matplotlib
-- hvplot
-toc: true
-toc_sticky: true
-read_time: false
+tags: [dataviz, matplotlib, hvplot]
+excerpt: "excerpt here"
 hv-loader:
   points_hvplot_access_map: ["charts/NYC_population_density_hvplot.html", "800"] # second argument is the height
+toc: true
+toc_sticky: true
 ---
 
 # Population Density
