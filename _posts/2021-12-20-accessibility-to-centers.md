@@ -19,14 +19,16 @@ The second part of this project involved creating a network analysis to explore 
 * Plotting the walking distance to the nearest center
 
 ## Defining the Urban Street Network
-The road network for all of NYC is massive - this image is an export of the output from OSMnx showing all walkable paths.
+The walkable road network for all of NYC is massive - this image is an export of the output from OSMnx showing all walkable paths.
 
 ![G_NYC_roadnetwork]({{ site.url }}{{ site.baseurl }}/assets/images/G_NYC_roadnetwork_v2.png)
 <img src="G_NYC_roadnetwork_v2.png" height="300">
 
 
 ## Investigating Walking Accessibility to Nearest Evacuation Center
-This static map to illustrates the distance of each node to the nearest center the map. The maximum distance for this network analysis was set to 2000 meters (every node beyond 2000 meters is color-coded in the same purple hue, indicating relative inaccessibility).
+This static map to illustrates the distance of each node to the nearest center the map (shown in red). The maximum distance for this network analysis was set to 2000 meters (every node beyond 2000 meters is color-coded in the same purple hue, indicating relative inaccessibility).
 
-The interactive version of this map is below (note: it is slow to load)
+![points_matplotlib_access_map]({{ site.url }}{{ site.baseurl }}/assets/images/points_matplotlib_access_map.png)
+
+The interactive version of this accessibility surface is below (note: it is slow to load).
 <div id="points_hvplot_access_map"></div>
