@@ -5,7 +5,7 @@ published: true
 tags: [dataviz, folium]
 excerpt: "Excerpt."
 folium-loader:
-  folium-chart-2: ["charts/folium_map_master.html", "400"] # second argument is the height
+  folium_map_master: ["charts/folium_map_master.html", "400"] # second argument is the height
 toc: false
 toc_sticky: false
 ---
