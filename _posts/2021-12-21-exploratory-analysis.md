@@ -1,6 +1,6 @@
 ---
 title: "Exploratory Analysis: Population Density & Social Vulnerability"
-date: 2021-12-20
+date: 2021-12-21
 published: true
 tags: [dataviz, matplotlib, hvplot]
 excerpt: "Exploration of the spatial distribution of population and social vulnerability-related variables in NYC."
@@ -28,7 +28,7 @@ To illustrate population density spatially, the interactive map below shows popu
 ## Overall SVI
 According to the CDC, “social vulnerability refers to the potential negative effects on communities caused by external stresses on
 human health. Such stresses include natural or human-caused disasters, or disease outbreaks.” The CDC/ATSDR Social Vulnerability Index (CDC/ATSDR SVI) uses 15 U.S. census variables to assemble an index score for social vulnerability at different geographic levels. The following graphic breaks down the different components of the index:
-![SVI]({{ site.url }}{{ site.baseurl }}/assets/images/SVI.jpg, width="500")
+![SVI]({{ site.url }}{{ site.baseurl }}/assets/images/SVI.jpg)
 
 Since this index is specifrically intended for disaster preparation and support for local communities and already incorporates robust census data, 
 I downloaded the tract-level index for New York State and filtered to NYC. 
@@ -37,10 +37,10 @@ I downloaded the tract-level index for New York State and filtered to NYC.
 ### SVI Themes
 In addition to an overall SVI score, the dataset also contains the individual scores for four different social vulnerability themes. I mapped the four themes' scores across each census tract, as well as the point layer for hurricane evacuation centers.
 #### Theme 1: Socioeconomic Status
-![hec_SVItheme1_matplotlib]({{ site.url }}{{ site.baseurl }}/assets/images/hec_SVItheme1_matplotlib.png, width="800")
+![hec_SVItheme1_matplotlib]({{ site.url }}{{ site.baseurl }}/assets/images/hec_SVItheme1_matplotlib.png)
 #### Theme 2: Household Composition & Disability
-![hec_SVItheme2_matplotlib]({{ site.url }}{{ site.baseurl }}/assets/images/hec_SVItheme2_matplotlib.png, width="800")
+![hec_SVItheme2_matplotlib]({{ site.url }}{{ site.baseurl }}/assets/images/hec_SVItheme2_matplotlib.png)
 #### Theme 3: Minority Status & Language
-![hec_SVItheme3_matplotlib]({{ site.url }}{{ site.baseurl }}/assets/images/hec_SVItheme3_matplotlib.png, width="800")
+![hec_SVItheme3_matplotlib]({{ site.url }}{{ site.baseurl }}/assets/images/hec_SVItheme3_matplotlib.png)
 #### Theme 4: Housing Type & Transportation
-![hec_SVItheme4_matplotlib]({{ site.url }}{{ site.baseurl }}/assets/images/hec_SVItheme4_matplotlib.png, width="800")
+![hec_SVItheme4_matplotlib]({{ site.url }}{{ site.baseurl }}/assets/images/hec_SVItheme4_matplotlib.png)
