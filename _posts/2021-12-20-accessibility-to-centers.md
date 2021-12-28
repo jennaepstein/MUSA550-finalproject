@@ -12,16 +12,20 @@ toc: false
 toc_sticky: false
 classes: wide
 ---
+## Process 
+The second part of this project involved creating a network analysis to explore walking access to evacuation centers from each intersection. Main steps included:
+* Creating a pandanas network
+* Loading data for the walkable street network using OSMnx and adding locations of the hurricane evacuation centers to the network
+* Plotting the walking distance to the nearest center
 
 ## Defining the Urban Street Network
-
+The road network for all of NYC is massive - this image is an export of the output from OSMnx showing all walkable paths.
 Show OSMnx road network for process?
 ![G_NYC_roadnetwork]({{ site.url }}{{ site.baseurl }}/assets/images/G_NYC_roadnetwork.png)
 
 
-## HvPlot of Walking Accessibility to Nearest Evacuation Center
+## Investigating Walking Accessibility to Nearest Evacuation Center
+This static map to illustrates the distance of each node to the nearest center the map. The maximum distance for this network analysis was set to 2000 meters (every node beyond 2000 meters is color-coded in the same purple hue, indicating relative inaccessibility).
 
-Text describing the map:
-
+The interactive version of this map is below (note: it is slow to load)
 <div id="points_hvplot_access_map"></div>
-lse
