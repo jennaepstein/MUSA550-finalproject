@@ -6,6 +6,7 @@ tags: [dataviz, matplotlib, hvplot]
 excerpt: "Exploration of the spatial distribution of population and social vulnerability-related variables in NYC."
 altair-loader:
   NYC_population_density_hist: "charts/NYC_population_density_hist.json"
+  NYC_boros_total_population_barchart: "charts/NYC_boros_total_population_barchart.json"
 hv-loader:
   NYC_population_density_hvplot: ["charts/NYC_population_density_hvplot.html", "800", "800"]
   SVI_NYC_hvplot_map: ["charts/SVI_NYC_hvplot_map.html", "600"]
@@ -15,8 +16,12 @@ classes: wide
 
 ---
 
-## Population Density
-To gain a better understanding of where major centers of population are situated throughout the city, I pulled data from the US Census using cenpy to obtain the total population estimate and land area for each tract. I then calculated a new variable for population density:
+## Population & Population Density
+To gain a better understanding of where major centers of population are situated throughout the city, I pulled data from the US Census using cenpy to obtain the total population estimate and land area for each tract. I first grouped population by borough and charted the total population in each. Bronx has the highest total population.
+
+<div id="NYC_boros_total_population_barchart"></div>
+
+To get a more normalized measure of population, I calculated a new variable for population density:
 >Population_Density = Total_Population/AREALAND
 
 <div id="NYC_population_density_hist"></div>
