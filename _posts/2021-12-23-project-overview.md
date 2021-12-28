@@ -1,9 +1,9 @@
 ---
 title: "Project Overview"
-date: 2021-12-22
+date: 2021-12-23
 tags:
   - Overview
-excerpt: "Overview of the project and context."
+excerpt: "An Overview of the project and context."
 
 altair-loader:
   zones_centers_map: "charts/zones_centers_map.json"

@@ -1,5 +1,5 @@
 ---
-title: "Mapping the Elements Together"
+title: "Part 3: Mapping the Elements Together"
 date: 2021-12-19
 published: true
 tags: [dataviz, folium]

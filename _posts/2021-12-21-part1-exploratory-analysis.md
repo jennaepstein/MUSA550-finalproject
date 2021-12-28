@@ -1,9 +1,9 @@
 ---
-title: "Exploratory Analysis: Population Density & Social Vulnerability"
+title: "Part 1: Exploratory Analysis of Population Density & Social Vulnerability"
 date: 2021-12-21
 published: true
 tags: [dataviz, matplotlib, hvplot]
-excerpt: "Exploration of the spatial distribution of population and social vulnerability-related variables in NYC."
+excerpt: "Examining the spatial distribution of population and social vulnerability-related variables in NYC."
 altair-loader:
   NYC_population_density_hist: "charts/NYC_population_density_hist.json"
   NYC_boros_total_population_barchart: "charts/NYC_boros_total_population_barchart.json"
@@ -16,7 +16,7 @@ classes: wide
 
 ---
 
-## Population & Population Density
+## Total Population & Population Density
 To gain a better understanding of where major centers of population are situated throughout the city, I pulled data from the US Census using cenpy to obtain the total population estimate and land area for each tract. I first grouped population by borough and charted the total population in each. Bronx has the highest total population.
 
 <div id="NYC_boros_total_population_barchart"></div>
