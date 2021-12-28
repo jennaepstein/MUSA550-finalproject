@@ -8,7 +8,7 @@ altair-loader:
   NYC_population_density_hist: "charts/NYC_population_density_hist.json"
 hv-loader:
   NYC_population_density_hvplot: ["charts/NYC_population_density_hvplot.html", "800", "800"]
-  SVI_NYC_hvplot_map: ["charts/SVI_NYC_hvplot_map.html", "800", "800"]
+  SVI_NYC_hvplot_map: ["charts/SVI_NYC_hvplot_map.html", "600"]
 toc: false
 toc_sticky: false
 classes: wide
