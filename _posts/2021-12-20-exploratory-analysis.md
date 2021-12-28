@@ -5,16 +5,17 @@ published: true
 tags: [dataviz, matplotlib, hvplot]
 excerpt: "excerpt here"
 hv-loader:
-  points_hvplot_access_map: ["charts/NYC_population_density_hvplot.html", "800"] # second argument is the height
+  NYC_population_density_hvplot: ["charts/NYC_population_density_hvplot.html", "800"] # second argument is the height
 toc: true
 toc_sticky: true
 ---
 
 # Population Density
+Text.
 <div id="NYC_population_density_hvplot"></div>
 
 # Overall SVI
-
+Text.
 ![hec_overallSVI_matplotlib]({{ site.url }}{{ site.baseurl }}/assets/images/hec_overallSVI_matplotlib.png)
 
 ## SVI Themes
