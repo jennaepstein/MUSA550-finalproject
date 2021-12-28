@@ -12,11 +12,6 @@ toc: false
 toc_sticky: false
 classes: wide
 ---
-## Process 
-The second part of this project centered around a [Pandana](http://udst.github.io/pandana/) network analysis to explore walking access to evacuation centers from each intersection. Main steps included:
-* Creating a pandanas network 
-* Loading data for the walkable street network using [OSMnx](https://osmnx.readthedocs.io/en/stable/) and adding locations of the hurricane evacuation centers to the network
-* Plotting the walking distance to the nearest center
 
 ## Defining the Urban Street Network
 The walkable road network for all of NYC is massive - this image is an export of the output from [OSMnx](https://osmnx.readthedocs.io/en/stable/) showing all walkable paths.
@@ -30,5 +25,5 @@ This static map to illustrates the distance of each node to the nearest center t
 
 ![points_matplotlib_access_map]({{ site.url }}{{ site.baseurl }}/assets/images/points_matplotlib_access_map.png)
 
-The interactive version of this accessibility surface is below (note: it is slow to load).
+The interactive version of this accessibility surface is below (note: it is slow to load). Hurricane evacuation center points are not shown on this version, but they can be inferred based on the patterns of the colors going from darker to lighter.
 <div id="points_hvplot_access_map"></div>

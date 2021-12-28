@@ -2,7 +2,7 @@
 title: "Part 3: Mapping the Elements Together"
 date: 2021-12-19
 published: true
-tags: [dataviz, folium]
+tags: [dataviz, folium, map]
 excerpt: "An interactive folium map allowing users to explore the different elements of this analysis and inform resource allocation decisions."
 folium-loader:
   folium_map_master: ["charts/folium_map_master.html", "800", "800"]
