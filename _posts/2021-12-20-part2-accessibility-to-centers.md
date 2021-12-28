@@ -3,7 +3,7 @@ title: "Part 2: Accessibility to Nearest Evacuation Center"
 date: 2021-12-20
 published: true
 tags: [dataviz, altair, hvplot, holoviews]
-excerpt: "Exploring the urban street network and walking accessibility to nearest evacuation centers."
+excerpt: "Analyzing walking accessibility to hurricane evacuation centers using NYC's street network."
 #altair-loader:
 #  altair-chart-1: "charts/zones_centers_map.json"
 hv-loader:
@@ -15,7 +15,7 @@ classes: wide
 ## Process 
 The second part of this project centered around a [Pandana](http://udst.github.io/pandana/) network analysis to explore walking access to evacuation centers from each intersection. Main steps included:
 * Creating a pandanas network 
-* Loading data for the walkable street network using OSMnx and adding locations of the hurricane evacuation centers to the network
+* Loading data for the walkable street network using [OSMnx](https://osmnx.readthedocs.io/en/stable/) and adding locations of the hurricane evacuation centers to the network
 * Plotting the walking distance to the nearest center
 
 ## Defining the Urban Street Network
