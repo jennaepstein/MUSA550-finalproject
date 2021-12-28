@@ -20,9 +20,7 @@ The second part of this project involved creating a network analysis to explore 
 
 ## Defining the Urban Street Network
 The road network for all of NYC is massive - this image is an export of the output from OSMnx showing all walkable paths.
-Show OSMnx road network for process?
-![G_NYC_roadnetwork]({{ site.url }}{{ site.baseurl }}/assets/images/G_NYC_roadnetwork.png)
-
+![G_NYC_roadnetwork]({{ site.url }}{{ site.baseurl }}/assets/images/G_NYC_roadnetwork_v2.png)
 
 ## Investigating Walking Accessibility to Nearest Evacuation Center
 This static map to illustrates the distance of each node to the nearest center the map. The maximum distance for this network analysis was set to 2000 meters (every node beyond 2000 meters is color-coded in the same purple hue, indicating relative inaccessibility).

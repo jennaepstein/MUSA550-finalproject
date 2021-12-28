@@ -35,11 +35,19 @@ I downloaded the tract-level index for New York State and filtered to NYC.
 
 ### SVI Themes
 In addition to an overall SVI score, the dataset also contains the individual scores for four different social vulnerability themes. I mapped the four themes' scores across each census tract, as well as the point layer for hurricane evacuation centers.
+
 #### Theme 1: Socioeconomic Status
+
 ![hec_SVItheme1_matplotlib]({{ site.url }}{{ site.baseurl }}/assets/images/hec_SVItheme1_matplotlib.png)
+
 #### Theme 2: Household Composition & Disability
+
 ![hec_SVItheme2_matplotlib]({{ site.url }}{{ site.baseurl }}/assets/images/hec_SVItheme2_matplotlib.png)
+
 #### Theme 3: Minority Status & Language
+
 ![hec_SVItheme3_matplotlib]({{ site.url }}{{ site.baseurl }}/assets/images/hec_SVItheme3_matplotlib.png)
+
 #### Theme 4: Housing Type & Transportation
+
 ![hec_SVItheme4_matplotlib]({{ site.url }}{{ site.baseurl }}/assets/images/hec_SVItheme4_matplotlib.png)
