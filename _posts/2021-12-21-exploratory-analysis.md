@@ -17,7 +17,7 @@ classes: wide
 
 ## Population Density
 To gain a better understanding of where major centers of population are situated throughout the city, I pulled data from the US Census using cenpy to obtain the total population estimate and land area for each tract. I then calculated a new variable for population density:
-* Population_Density = Total_Population/AREALAND
+>Population_Density = Total_Population/AREALAND
 
 <div id="NYC_population_density_hist"></div>
 
