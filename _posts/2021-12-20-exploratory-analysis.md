@@ -28,7 +28,11 @@ To illustrate population density spatially, the interactive map below shows popu
 # Overall SVI
 
 According to the CDC, “social vulnerability refers to the potential negative effects on communities caused by external stresses on
-human health. Such stresses include natural or human-caused disasters, or disease outbreaks.” The CDC/ATSDR Social Vulnerability Index (CDC/ATSDR SVI) uses 15 U.S. census variables to assemble an index score for social bulnerability at different geographic levels. since this index is specifrically intended for disaster preparation and support for local communities and already incorporates robust census data, I downloaded the tract-level index for New York State and filtered to NYC. 
+human health. Such stresses include natural or human-caused disasters, or disease outbreaks.” The CDC/ATSDR Social Vulnerability Index (CDC/ATSDR SVI) uses 15 U.S. census variables to assemble an index score for social vulnerability at different geographic levels. The following graphic breaks down the different components of the index:
+
+![SVI]({{ site.url }}{{ site.baseurl }}/assets/images/SVI.jpg)
+
+Since this index is specifrically intended for disaster preparation and support for local communities and already incorporates robust census data, I downloaded the tract-level index for New York State and filtered to NYC. 
 
 ![hec_overallSVI_matplotlib]({{ site.url }}{{ site.baseurl }}/assets/images/hec_overallSVI_matplotlib.png)
 
