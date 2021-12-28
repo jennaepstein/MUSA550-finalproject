@@ -5,7 +5,7 @@ published: true
 tags: [dataviz, matplotlib, hvplot]
 excerpt: "excerpt here"
 hv-loader:
-  NYC_population_density_hvplot: ["charts/NYC_population_density_hvplot.html", "800"] # second argument is the height
+  NYC_population_density_hvplot: ["charts/NYC_population_density_hvplot.html", "800", "800"] # second argument is the height
 toc: true
 toc_sticky: true
 ---
