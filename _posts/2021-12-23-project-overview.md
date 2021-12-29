@@ -1,10 +1,7 @@
 ---
 title: "Project Overview"
 date: 2021-12-23
-tags:
-  - Overview
 excerpt: "An overview of the project motivation and context."
-
 altair-loader:
   zones_centers_map: "charts/zones_centers_map.json"
 hv-loader:
