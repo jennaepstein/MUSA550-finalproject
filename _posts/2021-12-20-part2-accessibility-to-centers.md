@@ -17,8 +17,6 @@ classes: wide
 The walkable road network for all of NYC is massive - this image is an export of the output from [OSMnx](https://osmnx.readthedocs.io/en/stable/) showing all walkable paths.
 
 ![G_NYC_roadnetwork]({{ site.url }}{{ site.baseurl }}/assets/images/G_NYC_roadnetwork_v2.png)
-<img src="G_NYC_roadnetwork_v2.png" height="300">
-
 
 ## Investigating Walking Accessibility to Nearest Evacuation Center
 This static map to illustrates the distance of each node to the nearest center the map (shown in red). The maximum distance for this network analysis was set to 2000 meters (every node beyond 2000 meters is color-coded in the same purple hue, indicating relative inaccessibility).
