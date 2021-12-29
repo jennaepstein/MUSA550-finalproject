@@ -45,8 +45,11 @@ I downloaded the tract-level index for New York State and filtered to NYC.
 ### SVI Themes
 In addition to an overall SVI score, the dataset also contains the individual scores for four different social vulnerability themes. I mapped the four themes' scores across each census tract. Higher scores indicate higher vulnerability for each theme. Below each map is a box and whiskers plot showing the distribution of scores per theme across all census tracts by each of the five boroughs.
 
+For reference, here is a map of the five boroughs.
+![NYC_borough_boundaries]({{ site.url }}{{ site.baseurl }}/assets/images/NYC_borough_boundaries.png)
+
 #### Theme 1: Socioeconomic Status
-The Socioeconomic status theme incorporates data on individuals below poverty, unemployment, low income levels, and educational attainment (no high school diploma). As shown in this map and accompanying plot, the Bronx contains census tracts with higher values for this category, indicating greater concentration of socioeconomic vulnerability compared to areas like Staten Island (lower left of the map). Pockets of Manhattan also appear to have higher scores.
+The socioeconomic status theme incorporates data on individuals below poverty, unemployment, low income levels, and educational attainment (no high school diploma). As shown in this map and accompanying plot, the Bronx contains census tracts with higher values for this category, indicating greater concentration of socioeconomic vulnerability compared to areas like Staten Island (lower left of the map). Pockets of Manhattan also appear to have higher scores.
 
 ![hec_SVItheme1_matplotlib]({{ site.url }}{{ site.baseurl }}/assets/images/hec_SVItheme1_matplotlib.png)
 <div id="SVI_boxplot_theme1"></div>
