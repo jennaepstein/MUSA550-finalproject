@@ -47,21 +47,25 @@ In addition to an overall SVI score, the dataset also contains the individual sc
 
 #### Theme 1: Socioeconomic Status
 The Socioeconomic status theme incorporates data on individuals below poverty, unemployment, low income levels, and educational attainment (no high school diploma). As shown in this map and accompanying plot, the Bronx contains census tracts with higher values for this category, indicating greater concentration of socioeconomic vulnerability compared to areas like Staten Island (lower left of the map). Pockets of Manhattan also appear to have higher scores.
+
 ![hec_SVItheme1_matplotlib]({{ site.url }}{{ site.baseurl }}/assets/images/hec_SVItheme1_matplotlib.png)
 <div id="SVI_boxplot_theme1"></div>
 
 #### Theme 2: Household Composition & Disability
 The household composition & disability theme factors in the number of individuals who are aged 65 or older, aged 17 or younger, and older than age 5 with a disability. The score also accounts for single-parent households. Similar to the first theme, the darker shaded census tracts in the Bronx indicate higher vulnerability for this theme. However, unlike in the first theme, the range of higher vulnerability scores for this theme is lower for Manhattan - which is especially evident when looking at the box and whisker plot showing a median score of 0.15 for Manhattan.
+
 ![hec_SVItheme2_matplotlib]({{ site.url }}{{ site.baseurl }}/assets/images/hec_SVItheme2_matplotlib.png)
 <div id="SVI_boxplot_theme2"></div>
 
 #### Theme 3: Minority Status & Language
 The minority status & language theme encompasses individuals of a minotiry status and those who speak English "less than well." minority, speak English “less than well.” Higher scores for this theme appear evident across the city, which is consistent with general knowledge of NYC being a city with large immigrant population and presence of ethnic enclaves.
+
 ![hec_SVItheme3_matplotlib]({{ site.url }}{{ site.baseurl }}/assets/images/hec_SVItheme3_matplotlib.png)
 <div id="SVI_boxplot_theme3"></div>
 
 #### Theme 4: Housing Type & Transportation
 The Housing type and transportation theme covers multi-unit structures, mobile homes, crowding, no vehicle, group quarters. Manhattan has the highest median score for this theme (0.87), which is expected given the higher population density. 
+
 ![hec_SVItheme4_matplotlib]({{ site.url }}{{ site.baseurl }}/assets/images/hec_SVItheme4_matplotlib.png)
 <div id="SVI_boxplot_theme4"></div>
 
