@@ -1,18 +1,25 @@
-# github-pages-starter
+# Final Project for MUSA-550-Fall-2021
+Jenna Epstein, December 2021
 
-A template for including data visualizations in a Jekyll-powered blog with Github Pages.
+## A Geospatial Analysis of Population, Social Vulnerability, and Hurricane Evacuation Center Access in NYC
+For my final project, I sought to explore hurricane vulnerability in NYC through the lenses of population density, social vulnerability, and hurricane evacuation center accessibility.
+In addition to the [Project Overview](https://jennaepstein.github.io/MUSA550-finalproject/project-overview/), the project contains three parts:
+1. [Part 1: Exploratory Analysis of Population Density & Social Vulnerability](https://jennaepstein.github.io/MUSA550-finalproject/part1-exploratory-analysis/)
+2. [Part 2: Evaluating Accessibility to Hurricane Evacuation Centers](https://jennaepstein.github.io/MUSA550-finalproject/part2-accessibility-to-centers/)
+3. [Part 3: Mapping the Elements Together](https://jennaepstein.github.io/MUSA550-finalproject/part3-folium-map/)
 
+### Submission Requirements
 
-## Steps
-- Click on the "Use this template" button to create a new repository.
-- Choose a new name for your new repository
-- Go to the Settings section of your new repository, scroll down to the "Github Pages" section, and select the "Master" as the branch to be used for GitHub pages. This will automatically build the website. 
-- Customize your site
-  - Enter your site name, description, etc by editing the `_config.yml` file.
-  - There are 3 different ways that you can make changes to your blog's files:
-    - Edit files within your in the browser at GitHub.com
-    - Use a third party GitHub content editor, like [Prose by Development Seed](http://prose.io).
-    - Clone down your repository and make updates locally, then push them to your GitHub repository.
-- Publish a post
-  - Posts are written in Markdown and any files added to the `_posts` directory will be automatically uploaded and published
-  - Useful resource: [Markdown Cheatsheet](http://www.jekyllnow.com/Markdown-Style-Guide/)
+#### Web-based visualization
+The web-based visualization for this submission is a GitHub pages blog-style site powered by a separate repository. The link is: https://jennaepstein.github.io/MUSA550-finalproject/
+
+#### Description of project, results, and technical methods
+* For an overview of the project, please visit [Project Overview](https://jennaepstein.github.io/MUSA550-finalproject/project-overview/) page.
+* For a detailed discussion of the technical methods used throughout the project, please visit [Technical Methods](https://jennaepstein.github.io/MUSA550-finalproject/methods/)
+
+#### All code and data used
+* Code
+  - Jupyter notebook for Parts 1 and 2: https://github.com/MUSA-550-Fall-2021/final-project-jenna_epstein/blob/main/finalproject_EDA_networkanalysis.ipynb
+  - Jupyter notebook for Part 3: https://github.com/MUSA-550-Fall-2021/final-project-jenna_epstein/blob/main/folium_map_notebook.ipynb
+* Data
+  - Datasets that were downloaded directly are in the "data" folder of this repository. Census data and OSM data were accessed in the code.
