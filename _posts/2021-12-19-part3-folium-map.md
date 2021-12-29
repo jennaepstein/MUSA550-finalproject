@@ -25,5 +25,5 @@ The user can also enable overlay layers for the following:
 
 The flexibility of layer control allows the user to explore different scenarios to see which areas of the city may be impacted differently when faced wtih a hurricane evacuation need. For instance, areas with census tracts of higher population density and/or higher social vulnerability that also sit in or near pockets at high hurricane risk *and* lack accessibility to centers may be best suited for city personnel to prioritize citing new centers. This map is thus an effective planning tool for identifing areas at greatest need of support when it comes to allocating resources, especially as climate change continues to exacerbate extreme precipitation events.
 
-**Back to [Project Landing Page](https://jennaepstein.github.io/MUSA550-finalproject/)**
+## Back to [Project Landing Page](https://jennaepstein.github.io/MUSA550-finalproject/)
 

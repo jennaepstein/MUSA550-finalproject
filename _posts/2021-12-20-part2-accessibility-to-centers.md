@@ -27,4 +27,4 @@ The interactive version of this accessibility surface is below (note: it is slow
 
 <div id="points_hvplot_access_map"></div>
 
-**Next: [Part 3](https://jennaepstein.github.io/MUSA550-finalproject/part3-folium-map/)**
+## Next: [Part 3](https://jennaepstein.github.io/MUSA550-finalproject/part3-folium-map/)

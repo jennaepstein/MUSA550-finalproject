@@ -28,4 +28,4 @@ When ordered to evacuate, NYC residents living within an evacuation zone can see
 Across the five boroughs, there are 60 evacuation centers (based on the most up-to-date data available through NYC's Open Data portal). The distribution across the boroughs is shown on this bar graph. Brooklyn and Queens currently have the most centers within their boundaries (17 and 16, respectively).
 <div id="boros_hurricane_evac_centers_plot"></div>
 
-**Next: [Process & Methods](https://jennaepstein.github.io/MUSA550-finalproject/methods/)**
+## Next: [Process & Methods](https://jennaepstein.github.io/MUSA550-finalproject/methods/)

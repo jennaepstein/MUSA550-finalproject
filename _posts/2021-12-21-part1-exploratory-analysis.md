@@ -61,4 +61,4 @@ In addition to an overall SVI score, the dataset also contains the individual sc
 ![hec_SVItheme4_matplotlib]({{ site.url }}{{ site.baseurl }}/assets/images/hec_SVItheme4_matplotlib.png)
 <div id="SVI_boxplot_theme4"></div>
 
-**Next: [Part 2](https://jennaepstein.github.io/MUSA550-finalproject/part2-accessibility-to-centers/)**
+## Next: [Part 2](https://jennaepstein.github.io/MUSA550-finalproject/part2-accessibility-to-centers/)
