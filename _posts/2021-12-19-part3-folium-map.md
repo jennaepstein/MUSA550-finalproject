@@ -5,7 +5,7 @@ published: true
 tags: [dataviz, folium, map]
 excerpt: "An interactive folium map allowing users to explore the different elements of this analysis and inform resource allocation decisions."
 folium-loader:
-  folium_map_master: ["charts/folium_map_master.html", "800", "800"]
+  folium_map_final: ["charts/folium_map_final.html", "800", "800"]
 toc: false
 toc_sticky: false
 classes: wide
@@ -17,4 +17,4 @@ This final map allows the user to explore the different facets of this analysis.
 - For the purposes of this analysis, I defined "walkability" as indicative of a reasonable distance to walk when faced with imminent danger from a hurricane. I filtered the accessibility data to include nodes only within a half mile (approximately 804.672 meters) from the nearest evacuation center. Those nodes outside of this range would be more difficult to access, esepcailly when racing against an incoming storm.
 
 The user can also enable overlay layers for population density and social vulnerability scores by census tracts. The overall flexibility of layer control allows the user to explore different scenarios to see which areas of the city may be impacted differently when faced wtih a hurricane evacuation need. For instance, areas with census tracts of higher population density and/or higher social vulnerability that also sit in or near pockets at high hurricane risk AND lack accessibility to centers may be best suited for city personnel to prioritize citing new centers. This map is thus an effective planning tool for identifing areas at greatest need of support when it comes to allocating resources, especially as climate change continues to exacerbate extreme precipitation events.
-<div id="folium_map_master"></div>
+<div id="folium_map_final"></div>

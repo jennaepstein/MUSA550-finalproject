@@ -7,6 +7,10 @@ excerpt: "Examining the spatial distribution of population and social vulnerabil
 altair-loader:
   NYC_population_density_hist: "charts/NYC_population_density_hist.json"
   NYC_boros_total_population_barchart: "charts/NYC_boros_total_population_barchart.json"
+  SVI_boxplot_theme1: "charts/SVI_boxplot_theme1.json"
+  SVI_boxplot_theme2: "charts/SVI_boxplot_theme2.json"
+  SVI_boxplot_theme3: "charts/SVI_boxplot_theme3.json"
+  SVI_boxplot_theme4: "charts/SVI_boxplot_theme4.json"
 hv-loader:
   NYC_population_density_hvplot: ["charts/NYC_population_density_hvplot.html", "800", "800"]
   SVI_NYC_hvplot_map: ["charts/SVI_NYC_hvplot_map.html", "600"]
@@ -39,20 +43,24 @@ I downloaded the tract-level index for New York State and filtered to NYC.
 <div id="SVI_NYC_hvplot_map"></div>
 
 ### SVI Themes
-In addition to an overall SVI score, the dataset also contains the individual scores for four different social vulnerability themes. I mapped the four themes' scores across each census tract, as well as the point layer for hurricane evacuation centers.
+In addition to an overall SVI score, the dataset also contains the individual scores for four different social vulnerability themes. I mapped the four themes' scores across each census tract, as well as the point layer for hurricane evacuation centers. Below each map is also a box and whiskers plot showing the distribution of scores per theme across all census tracts by each of the five boroughs.
 
 #### Theme 1: Socioeconomic Status
 
 ![hec_SVItheme1_matplotlib]({{ site.url }}{{ site.baseurl }}/assets/images/hec_SVItheme1_matplotlib.png)
+<div id="SVI_boxplot_theme1"></div>
 
 #### Theme 2: Household Composition & Disability
 
 ![hec_SVItheme2_matplotlib]({{ site.url }}{{ site.baseurl }}/assets/images/hec_SVItheme2_matplotlib.png)
+<div id="SVI_boxplot_theme2"></div>
 
 #### Theme 3: Minority Status & Language
 
 ![hec_SVItheme3_matplotlib]({{ site.url }}{{ site.baseurl }}/assets/images/hec_SVItheme3_matplotlib.png)
+<div id="SVI_boxplot_theme3"></div>
 
 #### Theme 4: Housing Type & Transportation
 
 ![hec_SVItheme4_matplotlib]({{ site.url }}{{ site.baseurl }}/assets/images/hec_SVItheme4_matplotlib.png)
+<div id="SVI_boxplot_theme4"></div>
