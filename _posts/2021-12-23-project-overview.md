@@ -20,10 +20,12 @@ evacuation centers?
 * What road networks in the event of major storm-related flooding will be impacted?
 
 ## Context
-The map below shows an overview of hurricane evacuation centers across the five NYC boroughs and hurricane evacuation zones. There are six hurricane evacuation zones designated by the city and are ranked by the risk of storm surge impact. In the event of a hurricane or tropical storm, residents living in these zones may be told to evacuate ([Source](https://www1.nyc.gov/assets/em/html/know-your-zone/knowyourzone.html)). Zone 1 is the most likely to flood and therefore at highest risk of storm surge impacts. Zone 6 is the least likely and therefore has the lowest risk of the zones.
+The map below shows an overview of hurricane evacuation centers across the five NYC boroughs and hurricane evacuation zones. There are six hurricane evacuation zones designated by the city and are ranked by the risk of storm surge impact. In the event of a hurricane or tropical storm, residents living in these zones may be told to evacuate ([Source](https://www1.nyc.gov/assets/em/html/know-your-zone/knowyourzone.html)). Zone 1 is the most likely to flood and therefore at highest risk of storm surge impacts. Zone 6 is the least likely and therefore is at the lowest risk.
 <div id="zones_centers_map"></div>
 
-When ordered to evacuate, NYC residents living within an evacuation zone can seek shelter at one of the City's hurricane evacuation centers - facilities across the City designated as shelters where residents temporarily stay and are processed before being transported to a hurricane shelter. These evacuation centers are critical for residents who do not have family or friends outside of the risk areas with which to stay, and for those who lack financial options for short-term stays outside of the high risk areas. 
+When ordered to evacuate, NYC residents living within an evacuation zone can seek shelter at one of the City's hurricane evacuation centers. These are facilities across the five NYC boroughs where residents temporarily stay and are processed before being transported to a hurricane shelter. These evacuation centers are critical for residents who do not have family or friends outside of the risk areas with whom to stay, and for those who lack financial options for short-term stays outside of the high risk areas. 
 
 Across the five boroughs, there are 60 evacuation centers (based on the most up-to-date data available through NYC's Open Data portal). The distribution across the boroughs is shown on this bar graph. Brooklyn and Queens currently have the most centers within their boundaries (17 and 16, respectively).
 <div id="boros_hurricane_evac_centers_plot"></div>
+
+**Next: [Process & Methods](https://jennaepstein.github.io/MUSA550-finalproject/methods/)**
