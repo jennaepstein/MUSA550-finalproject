@@ -21,7 +21,7 @@ classes: wide
 ---
 
 ## Total Population & Population Density
-To gain a better understanding of where major centers of population are situated throughout the city, I pulled data from the US Census to obtain the total population estimate and land area for each tract. I first grouped population by borough and charted the total population in each. Bronx has the highest total population.
+To gain a better understanding of where major centers of population are situated throughout the city, I pulled data from the US Census to obtain the total population estimate and land area for each tract. I first grouped population by borough and charted the total population in each. The Bronx has the highest total population.
 
 <div id="NYC_boros_total_population_barchart"></div>
 
@@ -35,8 +35,8 @@ To illustrate population density spatially, the interactive map below shows popu
 <div id="NYC_population_density_hvplot"></div>
 
 ## Overall SVI
-According to the CDC, “social vulnerability refers to the potential negative effects on communities caused by external stresses on
-human health. Such stresses include natural or human-caused disasters, or disease outbreaks.” The CDC/ATSDR Social Vulnerability Index (CDC/ATSDR SVI) uses 15 U.S. census variables to assemble an index score for social vulnerability at different geographic levels. 
+According to the CDC, "social vulnerability refers to the potential negative effects on communities caused by external stresses on
+human health. Such stresses include natural or human-caused disasters, or disease outbreaks." The CDC/ATSDR Social Vulnerability Index (CDC/ATSDR SVI) uses 15 US Census variables to assemble an index score for social vulnerability at different geographic levels. 
 
 Since this index is specifically intended for disaster preparation and support for local communities and already incorporates robust census data, 
 I downloaded the tract-level index for New York State and filtered to NYC. 
@@ -60,3 +60,5 @@ In addition to an overall SVI score, the dataset also contains the individual sc
 #### Theme 4: Housing Type & Transportation
 ![hec_SVItheme4_matplotlib]({{ site.url }}{{ site.baseurl }}/assets/images/hec_SVItheme4_matplotlib.png)
 <div id="SVI_boxplot_theme4"></div>
+
+**Next: [Part 2](https://jennaepstein.github.io/MUSA550-finalproject/part2-accessibility-to-centers/)**
