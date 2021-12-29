@@ -43,7 +43,7 @@ I downloaded the tract-level index for New York State and filtered to NYC.
 <div id="SVI_NYC_hvplot_map"></div>
 
 ### SVI Themes
-In addition to an overall SVI score, the dataset also contains the individual scores for four different social vulnerability themes. I mapped the four themes' scores across each census tract. Higher scores indicate higher vulnerability for each themne. Below each map is also a box and whiskers plot showing the distribution of scores per theme across all census tracts by each of the five boroughs.
+In addition to an overall SVI score, the dataset also contains the individual scores for four different social vulnerability themes. I mapped the four themes' scores across each census tract. Higher scores indicate higher vulnerability for each theme. Below each map is a box and whiskers plot showing the distribution of scores per theme across all census tracts by each of the five boroughs.
 
 #### Theme 1: Socioeconomic Status
 The Socioeconomic status theme incorporates data on individuals below poverty, unemployment, low income levels, and educational attainment (no high school diploma). As shown in this map and accompanying plot, the Bronx contains census tracts with higher values for this category, indicating greater concentration of socioeconomic vulnerability compared to areas like Staten Island (lower left of the map). Pockets of Manhattan also appear to have higher scores.
@@ -58,13 +58,13 @@ The household composition & disability theme factors in the number of individual
 <div id="SVI_boxplot_theme2"></div>
 
 #### Theme 3: Minority Status & Language
-The minority status & language theme encompasses individuals of a minotiry status and those who speak English "less than well." minority, speak English “less than well.” Higher scores for this theme appear evident across the city, which is consistent with general knowledge of NYC being a city with large immigrant population and presence of ethnic enclaves.
+The minority status & language theme encompasses individuals of a minority status and those who speak English "less than well". Higher scores for this theme appear evident across the city, which is consistent with general knowledge of NYC being a city with a large immigrant population and the presence of ethnic enclaves.
 
 ![hec_SVItheme3_matplotlib]({{ site.url }}{{ site.baseurl }}/assets/images/hec_SVItheme3_matplotlib.png)
 <div id="SVI_boxplot_theme3"></div>
 
 #### Theme 4: Housing Type & Transportation
-The Housing type and transportation theme covers multi-unit structures, mobile homes, crowding, no vehicle, group quarters. Manhattan has the highest median score for this theme (0.87), which is expected given the higher population density. 
+The housing type and transportation theme covers data on multi-unit structures, mobile homes, crowding, lack of vehicle access, and group living quarters. Manhattan has the highest median score for this theme (0.87), which is expected given the higher population density. 
 
 ![hec_SVItheme4_matplotlib]({{ site.url }}{{ site.baseurl }}/assets/images/hec_SVItheme4_matplotlib.png)
 <div id="SVI_boxplot_theme4"></div>
