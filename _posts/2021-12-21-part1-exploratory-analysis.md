@@ -2,7 +2,7 @@
 title: "Part 1: Exploratory Analysis of Population Density & Social Vulnerability"
 date: 2021-12-21
 published: true
-tags: [dataviz, matplotlib, hvplot]
+tags: [dataviz, matplotlib, hvplot, altair]
 excerpt: "Examining the spatial distribution of population and social vulnerability-related variables in NYC."
 altair-loader:
   NYC_population_density_hist: "charts/NYC_population_density_hist.json"
