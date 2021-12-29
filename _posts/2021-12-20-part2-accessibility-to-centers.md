@@ -1,8 +1,8 @@
 ---
-title: "Part 2: Accessibility to Nearest Evacuation Center"
+title: "Part 2: Evaluating Accessibility to Hurricane Evacuation Centers"
 date: 2021-12-20
 published: true
-tags: [dataviz, altair, hvplot, holoviews]
+tags: [dataviz, altair, hvplot, osmnx]
 excerpt: "Analyzing walking accessibility to hurricane evacuation centers using NYC's street network."
 #altair-loader:
 #  altair-chart-1: "charts/zones_centers_map.json"
