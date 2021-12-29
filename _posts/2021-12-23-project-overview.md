@@ -9,7 +9,7 @@ hv-loader:
 classes: wide
 ---
 ## Motivation
-Over the past decade,  past decade has witnessed hurricanes and tropical storms have brought widespread damage and devastation to New York City. Major storm events and their impacts - particuiary when it comes to storm surge flooding - are only expected to increase in frequency as the planet warms. 
+Over the past decade,  past decade has witnessed hurricanes and tropical storms have brought widespread damage and devastation to New York City. Major storm events and their impacts - particularly when it comes to storm surge flooding - are only expected to increase in frequency as the planet warms. 
 
 For my final project, I sought to explore hurricane vulnerability in NYC through the lenses of population density, social vulnerability, and hurricane evacuation center accessibility.
 
