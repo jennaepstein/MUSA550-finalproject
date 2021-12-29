@@ -4,6 +4,8 @@ date: 2021-12-23
 excerpt: "An overview of the project motivation and context."
 altair-loader:
   zones_centers_map: "charts/zones_centers_map.json"
+  boros_centers_map: "charts/centers_map_final.json"
+
 hv-loader:
   boros_hurricane_evac_centers_plot: ["charts/boros_hurricane_evac_centers_plot.html", "800", "800"] # second argument is the height
 classes: wide
@@ -27,5 +29,6 @@ When ordered to evacuate, NYC residents living within an evacuation zone can see
 
 Across the five boroughs, there are 60 evacuation centers (based on the most up-to-date data available through NYC's Open Data portal). The distribution across the boroughs is shown on this bar graph. Brooklyn and Queens currently have the most centers within their boundaries (17 and 16, respectively).
 <div id="boros_hurricane_evac_centers_plot"></div>
+<div id="centers_map_final"></div>
 
 ## Next: [Process & Methods](https://jennaepstein.github.io/MUSA550-finalproject/methods/)
