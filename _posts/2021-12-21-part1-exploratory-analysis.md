@@ -21,7 +21,7 @@ classes: wide
 ---
 
 ## Total Population & Population Density
-To gain a better understanding of where major centers of population are situated throughout the city, I pulled data from the US Census using cenpy to obtain the total population estimate and land area for each tract. I first grouped population by borough and charted the total population in each. Bronx has the highest total population.
+To gain a better understanding of where major centers of population are situated throughout the city, I pulled data from the US Census to obtain the total population estimate and land area for each tract. I first grouped population by borough and charted the total population in each. Bronx has the highest total population.
 
 <div id="NYC_boros_total_population_barchart"></div>
 
