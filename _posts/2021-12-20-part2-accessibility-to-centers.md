@@ -19,7 +19,7 @@ The walkable road network for all of NYC is massive - this image is an export of
 ![G_NYC_roadnetwork]({{ site.url }}{{ site.baseurl }}/assets/images/G_NYC_roadnetwork_v2.png)
 
 ## Investigating Walking Accessibility to Nearest Evacuation Center
-This static map to illustrates the distance of each node to the nearest center the map (shown in red). The maximum distance for this network analysis was set to 2000 meters (every node beyond 2000 meters is color-coded in the same purple hue, indicating relative inaccessibility).
+This static map to illustrates the distance of each node to the nearest center the map (shown in red). The maximum distance for this network analysis was set to 2000 meters. Every node beyond 2000 meters is color-coded in the same purple hue, indicating relative inaccessibility.
 
 ![points_matplotlib_access_map]({{ site.url }}{{ site.baseurl }}/assets/images/points_matplotlib_access_map.png)
 
