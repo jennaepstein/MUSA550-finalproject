@@ -26,4 +26,5 @@ This static map to illustrates the distance of each node to the nearest center t
 ![points_matplotlib_access_map]({{ site.url }}{{ site.baseurl }}/assets/images/points_matplotlib_access_map.png)
 
 The interactive version of this accessibility surface is below (note: it is slow to load). Hurricane evacuation center points are not shown on this version, but they can be inferred based on the patterns of the colors going from darker to lighter.
+
 <div id="points_hvplot_access_map"></div>
