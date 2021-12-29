@@ -13,7 +13,7 @@ classes: wide
 This final map allows the user to explore the different facets of this analysis. By default, the map loads with the following layers (which can be toggled on/off using radio buttons in the layer control):
 * Highest risk **hurricane evacuation zone** (zone 1), shown as red polygons
   - Road inaccessibility during and after a hurricane will impact evacuations. The additional overlay of hurricane evacuation zone 1 (the highest risk of flooding) shows what pockets of the city will be most impacted from inundation. 
-* **Most accessible nodes - 1/2 mile)** refers to nodes within a half mile walk of an evacuation center
+* **Most accessible nodes - 1/2 mile** refers to nodes within a half mile walk of an evacuation center
   - For the purposes of this analysis, I defined "walkability" as indicative of a reasonable distance to walk when faced with imminent danger from a hurricane. I filtered the accessibility data to include nodes only within a half mile (approximately 804.672 meters) from the nearest evacuation center. Those nodes outside of this range would be more difficult to access, especially when racing against an incoming storm.
 
 The user can also enable overlay layers for the following:
