@@ -12,8 +12,12 @@ hv-loader:
 classes: wide
 ---
 ## Motivation
-For my final project, I was interested in exploring access to hurricane evacuation centers and social vulnerability factors in New York City. This analysis considers the following questions:
-* What is the relationship between census-tract level demographics and proximity to hurricane
+Over the past decade,  past decade has witnessed hurricanes and tropical storms have brought widespread damage and devastation to New York City. AMajor storm events and their impacts - particuiary when it comes to storm surge flooding - are only expected to increase in frequency as the planet warms. 
+
+For my final project, I sought to explore hurricane vulnerability in NYC through the lenses of population density, social vulnerability, and hurricane evacuation center accessibility.
+
+This analysis considers the following questions:
+* What is the relationship between census-tract level population composition and proximity to hurricane
 evacuation centers?
 * Are centers in/near areas of high social vulnerability? What does walkability look like for these populations?
 * What road networks in the event of major storm-related flooding will be impacted?
